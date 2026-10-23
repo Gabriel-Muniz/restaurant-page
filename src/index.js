@@ -1,5 +1,5 @@
-import "./reset.css";
-import "./styles.css";
+import "./styles/reset.css";
+import "./styles/styles.css";
 
 import restaurantImage from "./images/restaurant.jpg"
 
