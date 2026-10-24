@@ -1,0 +1,15 @@
+article.about{
+    align-items: center;
+
+    h1{
+        margin-bottom: 1em;
+    }
+
+    p{
+        margin-bottom: 2em;
+    }
+}
+
+.photo-credits{
+    text-align: start;
+}

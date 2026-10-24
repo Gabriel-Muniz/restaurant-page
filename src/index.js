@@ -1,9 +1,11 @@
 import "./styles/reset.css";
 import "./styles/styles.css";
 import "./styles/menu.css";
+import "./styles/about.css";
 
 import loadHome from "./scripts/homePage.js";
 import loadMenu from "./scripts/menuPage.js";
+import loadAbout from "./scripts/aboutPage.js";
 
 console.log("It's working!");
 
@@ -26,4 +28,8 @@ homeBtn.addEventListener('click', () => {
 menuBtn.addEventListener('click', () => {
     clearContent();
     loadMenu();
+})
+
+aboutBtn.addEventListener('click', () => {
+    loadAbout();
 })
