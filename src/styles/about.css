@@ -1,15 +1,29 @@
-article.about{
+body {
+    color: var(--text-900)
+}
+
+article.about {
     align-items: center;
 
-    h1{
+    h1 {
         margin-bottom: 1em;
     }
 
-    p{
+    p {
         margin-bottom: 2em;
     }
+
 }
 
-.photo-credits{
+.photo-credits {
     text-align: start;
+}
+
+li>a {
+    color: inherit;
+    font-weight: bold;
+
+    &:visited {
+        color: var(--secondary-700);
+    }
 }
