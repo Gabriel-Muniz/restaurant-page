@@ -7,8 +7,6 @@ import loadHome from "./scripts/homePage.js";
 import loadMenu from "./scripts/menuPage.js";
 import loadAbout from "./scripts/aboutPage.js";
 
-console.log("It's working!");
-
 loadHome();
 
 const homeBtn = document.querySelector('.btn-home');
