@@ -188,4 +188,10 @@ article {
 footer {
     height: 50px;
     background-color: var(--primary-950);
+    color: var(--text-50);
+
+    a{
+        color: inherit;
+        font-weight: bold;
+    }
 }
