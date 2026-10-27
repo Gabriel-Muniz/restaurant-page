@@ -1,7 +1,7 @@
 .menu-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 250px repeat(2, min-content);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* grid-template-rows: repeat(3, min-content); */
     gap: 0 2rem;
     padding: 0 2em;
 }
@@ -9,14 +9,15 @@
 .dish-card {
     display: grid;
     grid-template-rows: subgrid;
-    flex-basis: 250px;
-    flex-shrink: 0;
+    min-width: 250px;
 
-    grid-row: 1 / span 3;
+    grid-row: span 3;
 
     border: 2px solid black;
     border-radius: 10px;
     overflow: hidden;
+
+    margin-bottom: 2rem;
 
     .img-container {
         position: relative;
@@ -42,9 +43,8 @@
         text-align: center;
         grid-row: 2;
 
-        background-color: var(--accent);
-
-        border: 2px solid var(--background);
+        background-color: var(--accent-500);
+        border: 2px solid var(--background-900);
 
         border-left: none;
         border-right: none;
@@ -56,6 +56,6 @@
         padding: 1rem 2em;
         text-align: justify;
 
-        background-color: var(--secondary);
+        background-color: var(--secondary-300);
     }
 }
