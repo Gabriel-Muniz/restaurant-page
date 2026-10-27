@@ -106,13 +106,13 @@ header {
     border: none;
     border-radius: 5px;
 
-    &:hover {
+    &:hover,
+    &:focus-visible {
         background-color: var(--secondary-400);
         color: var(--text-950);
     }
 
-    &:active,
-    &:active{
+    &:active {
         background-color: var(--secondary-500);
     }
 }
@@ -190,7 +190,7 @@ footer {
     background-color: var(--primary-950);
     color: var(--text-50);
 
-    a{
+    a {
         color: inherit;
         font-weight: bold;
     }
